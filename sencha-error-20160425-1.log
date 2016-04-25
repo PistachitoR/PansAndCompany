@@ -1,0 +1,127 @@
+Sencha Cmd 6.1.2.15 - Crash report
+================================================
+An error occurred while executing the following command: build native
+
+Diagnostic information:
+=======================
+                         app.archivePath : archive                                           
+                      app.bootstrap.base : C:\Gloin\sencha\appPans                           
+                           app.build.dir : C:\Gloin\sencha\appPans/build/PansAndCompany      
+     app.builds.native.cordova.config.id : com.domain.PansAndCompany                         
+   app.builds.native.cordova.config.name : PansAndCompany                                    
+app.builds.native.cordova.config.platforms : android                                           
+              app.builds.native.packager : cordova                                           
+                  app.builds.web.default : true                                              
+                        app.cache.deltas : deltas                                            
+                        app.cache.enable : true                                              
+                           app.classpath : C:\Gloin\sencha\appPans/app.js,C:\Gloin\sencha\appPans/app
+                         app.cmd.version : 6.1.2.15                                          
+                          app.config.dir : C:\Gloin\sencha\appPans\.sencha\app               
+                   app.cordova.config.id : com.domain.PansAndCompany                         
+                 app.cordova.config.name : PansAndCompany                                    
+                 app.cordova.config.path : C:\Gloin\sencha\appPans/cordova                   
+               app.cordova.config.target :                                                   
+              app.cordova.config.verbose : false                                             
+                   app.cordova.js.0.path : cordova.js                                        
+               app.cordova.js.0.priority : 1000                                              
+                 app.cordova.js.0.remote : true                                              
+                   app.cordova.js.length : 1                                                 
+                 app.cordova.microloader : C:\Gloin\sencha\appPans\.sencha\app/microloader/testing.js
+                 app.cordova.output.base : C:\Gloin\sencha\appPans/cordova/www               
+         app.cordova.output.cache.enable : false                                             
+        app.cordova.output.deltas.enable : false                                             
+       app.cordova.output.manifest.embed : true                                              
+                                 app.dir : C:\Gloin\sencha\appPans                           
+                           app.framework : touch                                             
+                   app.framework.version : 2.4.2.571                                         
+                                  app.id : 92f66a23-f87b-44d2-90ec-01e99086a61f              
+                       app.indexHtmlPath : index.html                                        
+                                app.name : PansAndCompany                                    
+                         app.output.base : C:\Gloin\sencha\appPans/build/${build.environment}/PansAndCompany
+           app.output.microloader.enable : true                                              
+                  app.phonegap.config.id : com.domain.PansAndCompany                         
+                app.phonegap.config.name : PansAndCompany                                    
+                app.phonegap.config.path : C:\Gloin\sencha\appPans/phonegap                  
+              app.phonegap.config.remote : false                                             
+             app.phonegap.config.verbose : false                                             
+                  app.phonegap.js.0.path : phonegap.js                                       
+              app.phonegap.js.0.priority : 1000                                              
+                app.phonegap.js.0.remote : true                                              
+                  app.phonegap.js.length : 1                                                 
+                app.phonegap.microloader : C:\Gloin\sencha\appPans\.sencha\app/microloader/testing.js
+                app.phonegap.output.base : C:\Gloin\sencha\appPans/phonegap/www              
+        app.phonegap.output.cache.enable : false                                             
+       app.phonegap.output.deltas.enable : false                                             
+      app.phonegap.output.manifest.embed : true                                              
+                      app.requires.names :                                                   
+                   app.requires.packages :                                                   
+                      app.resource.paths :                                                   
+        app.slicer.js.0.isWidgetManifest : true                                              
+                    app.slicer.js.0.path : C:\Gloin\sencha\appPans/sass/example/custom.js    
+                    app.slicer.js.length : 1                                                 
+                    buildenvironment.dir : C:\Gloin\sencha\appPans                           
+               buildenvironment.load.dir : C:\Gloin\sencha\appPans                           
+                          cmd.config.dir : C:\Users\Beta\bin\Sencha\Cmd\6.1.2.15             
+                                 cmd.dir : C:\Users\Beta\bin\Sencha\Cmd\6.1.2.15             
+                    cmd.framework.minver : 2.2.0                                             
+                   cmd.framework.version : 2.99.99.99999                                     
+                            cmd.jvm.args : -Xms128m -Xmx1024m -Dapple.awt.UIElement=true     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : windows                                           
+                         cmd.server.port : 1841                                              
+                     cmd.unicode.escapes : C:\Users\Beta\bin\Sencha\Cmd\6.1.2.15/unicode-escapes.json
+                             cmd.version : 6.1.2.15                                          
+                            cmd.web.port : 1841                                              
+                     config.skipDownload : true                                              
+                      config.skipInherit : false                                             
+                     framework.classpath : C:\Gloin\sencha\appPans\touch/src                 
+                    framework.cmd.minver : 3.1.0.53                                          
+                   framework.cmd.version : 4.0.5.87                                          
+                    framework.config.dir : C:\Users\Beta\bin\Sencha\Cmd\6.1.2.15\plugins\touch\2.3
+                           framework.dir : C:\Gloin\sencha\appPans\touch                     
+                       framework.ignores : src/locale,src/platform,auth2/Auth.js,scroller/Infinite.js
+                          framework.name : touch                                             
+                  framework.packages.dir : C:\Gloin\sencha\appPans\touch/packages            
+             framework.preprocessor.opts : charts:no                                         
+                       framework.version : 2.4.2.571                                         
+                       inspector.address : http://localhost:1839/                            
+                          repo.local.dir : C:\Users\Beta\bin\Sencha\Cmd\repo                 
+        system.java.net.useSystemProxies : true                                              
+                     workspace.build.dir : C:\Gloin\sencha\appPans/build                     
+                    workspace.config.dir : C:\Gloin\sencha\appPans\.sencha\workspace         
+                           workspace.dir : C:\Gloin\sencha\appPans                           
+         workspace.frameworks.touch.path : C:\Gloin\sencha\appPans\touch                     
+                  workspace.packages.dir : C:\Gloin\sencha\appPans/packages/local,C:\Gloin\sencha\appPans/packages
+              workspace.packages.extract : C:\Gloin\sencha\appPans/packages/remote           
+                     workspace.theme.dir : C:\Gloin\sencha\appPans/packages/local,C:\Gloin\sencha\appPans/packages/${args.themeName}
+
+Exception information:
+=======================
+java.lang.NullPointerException
+     at java.io.File.<init>(Unknown Source)
+     at com.sencha.util.FileUtil.readFile(FileUtil.java:158)
+     at com.sencha.tools.compiler.jsb.projects.JsbBuilder.processBuild(JsbBuilder.java:29)
+     at com.sencha.command.build.JsbCommand.execute(JsbCommand.java:15)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:79)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+     at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+
